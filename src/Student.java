@@ -1,12 +1,12 @@
 public class Student extends Person {
-    private String enrollment;
+    private int enrollment;
     private String career;
 
-    public String getEnrollment() {
+    public int getEnrollment() {
         return enrollment;
     }
 
-    public void setEnrollment(String enrollment) {
+    public void setEnrollment(int enrollment) {
         this.enrollment = enrollment;
     }
 
